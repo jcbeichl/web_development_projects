@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Canine Hotel</title><!--title-->
+
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+<script type="text/javascript">
+
+	$("#slider").cycle({
+		fx: "scrollHorz", 
+		next: "#next", 	
+		prev: "#prev", 
+		timeout: 3000, 
+		pause: 1, 
+
+	});
+
+</script>
+
+<link rel="stylesheet" href="styles/main.css" />
+<link href='https://fonts.googleapis.com/css?family=Walter Turncoat' rel='stylesheet'>
+
+</head><!--head-->
+
+<body> 
+
+<div id="header">
+	<a href=""><img src="Images/logo.png" alt="Logo" /></a>
+</div><!--header-->
+
+<div id="navigation">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="login.html">Login</a></li>
+	</ul>
+</div><!--navigation-->
+
+<div id="container">
+	<div id="content">
+	<div id="contentleft">
+		<h1>The Canine Hotel - Gallery</h1>
+		
+		<div id="hero">
+
+			<div id="next">&rang;</div><!--next-->
+
+			<div id="prev">&lang;</div><!--prev-->
+
+			<div id="slider">
+
+				<img src="Images/Standard.Suite.2.jpg" height="286" width="508" alt="">
+				<img src="Images/Presidental.Suite.1.jpg" height="286" width="508" alt="">
+				<img src="Images/Palace.Suite.1.jpg" height="286" width="508" alt="">
+				<img src="Images/Pool.2.jpg" height="286" width="508" alt="">
+				<img src="Images/Play.Area.2.jpg" height="286" width="508" alt="">
+
+			</div><!--slider-->
+
+		</div><!--hero-->
+		
+	</div><!--contentleft-->
+
+<div id="sidebar">
+	<div class="sidebar-element">
+		<h3>Year-Round Pampering</h3>
+		<p>Give your dog plenty of play and exercise when you drop them off for daycare. Or, let them freshen up with a Pawdicure and Brush-out in our spa.</p>
+	</div>
+	
+	<div class="sidebar-element">
+		<h3>Services</h3>
+		<ul>
+			<li><a href="daycare.html">Daycare</a></li>
+			<li><a href="boarding.html">Boarding</a></li>
+			<li><a href="spa.html">Grooming and Spa</a></li>
+			<li><a href="training.html">Training</a></li>
+		</ul>
+	</div>
+	
+</div><!--sidebar-->
+
+
+	</div><!--content-->
+</div><!--container-->
+
+
+
+<div id="footer">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+	</ul>
+	<p>&copy;2015 TheCanineHotel.com</p>
+</div><!--footer-->
+
+</body><!--body-->
+
+</html><!--html-->
+
